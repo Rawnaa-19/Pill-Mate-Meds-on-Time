@@ -9,7 +9,7 @@ This documentation outlines the Pill Dispenser project developed for the Robotic
 ## Table of Contents : 
 1. [Introduction](#Introduction)
 2. [Project Objectives](#Project-Objectives)
-3. [Esp32](#Esp32)
+3. [Circuit](#Circuit)
    - [Circuit Components](#Circuit-Components)
    - [Circuit Wiring](#Circuit-Wiring)
    - [Arduino Code](#Arduino-Code)
