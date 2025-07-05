@@ -20,8 +20,8 @@ const int totalSlots = 14;
 const int dispenseSteps = 512;
 int currentSlot = 0;
 
-String botToken = "7739943007:AAHpyjVE8Pekq7XlI6Qc1TI0CVFMrrkMxCk";  
-String chatID = "6709635387";
+String botToken = "SECRET";  
+String chatID = "SECRET";
 
 const char* ssid = "HUAWEI-340C3P46_HiLink";
 const char* password = "C91777A3";
