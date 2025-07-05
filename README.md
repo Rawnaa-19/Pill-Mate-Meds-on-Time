@@ -1,6 +1,7 @@
 # PillMate  ~  Meds on Time
-<kbd> **Figure 1** <br><br>*Pill Mate Logo*<br><br> <kbd width="200" height="300">![PILMATELOGO](https://github.com/user-attachments/assets/5be71aa7-7ffe-4869-b3bf-4390758cdfbf)</kbd></kbd>
-
+<kbd> **Figure 1** <br><br>*Pill Mate Logo*<br><br> 
+<img src="https://pfst.cf2.poecdn.net/base/image/72c08102fd5cc60eba87fc603061a443d76a22ec3b13ea76f6acbebeabbf6b35?w=1024&h=1536&pmaid=413996819" width="200" height="300" alt="PILMATELOGO">
+</kbd>
 ## Table of Contents : 
 1. [Introduction](#Introduction)
 1. [Esp32](#Esp32)
