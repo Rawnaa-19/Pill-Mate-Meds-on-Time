@@ -2,6 +2,10 @@
 <kbd> **Figure 1** <br><br>*Pill Mate Logo*<br><br> 
 <img src="https://pfst.cf2.poecdn.net/base/image/72c08102fd5cc60eba87fc603061a443d76a22ec3b13ea76f6acbebeabbf6b35?w=1024&h=1536&pmaid=413996819" width="200" height="300" alt="PILMATELOGO">
 </kbd>
+
+
+## Introduction
+This documentation outlines the Pill Dispenser project developed for the Robotics Summer Camp in collaboration with MASHORAH. The project aims to create an innovative solution that assists patients, particularly the elderly and those with motor impairments, in managing their medication schedules. By automating the dispensing of pills and providing timely notifications, this project seeks to improve medication adherence and overall health outcomes. Our goal is to design a user-friendly device that significantly reduces the risks associated with missed doses and enhances the quality of life for its users.<br><br>
 ## Table of Contents : 
 1. [Introduction](#Introduction)
 1. [Esp32](#Esp32)
@@ -10,10 +14,13 @@
    - [Arduino Code](#Arduino-Code)
    - [Code simulation](#Code-simulation)
 1. [References](#References)
+   
+## Project Objectives
+- Assist with medication timing.
+- Support independent living among disabled patients.
+- Reduce medication errors.
+- Promote home-based healthcare.
 
-## Introduction
-The first task of the Internet of Things Department is to control 5 LEDs using an esp32. The five LEDs will be controlled with the web page and database that was created in the first task of the Software Department.<br><br>
-<kbd> **Figure 1** <br><br>*Web Page*<br><br> <kbd>![image](https://github.com/Rawnaa-19/IOT-Esp32/assets/106926557/221cbc67-ceef-421d-b7e5-54117d50bfe2)</kbd></kbd>
 ## Esp32
 Esp32 is a microcontroller that has a builtin proccessor in it.[^2] The esp32 used in this task is esp - wroom 32.<br><br>
 <kbd> **Figure 2** <br><br>*Esp32-Wroom Pinout*<br><br> <kbd>![image](https://github.com/Rawnaa-19/IOT-Esp32/assets/106926557/bb9bb6e7-34e4-4725-987d-e2150b5aa1e5)(arduino-projekte.info, 2023)[^1]</kbd></kbd>
