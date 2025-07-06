@@ -8,7 +8,9 @@
 This documentation outlines the Pill Dispenser project developed for the Robotics Summer Camp in collaboration with MASHORAH. The project aims to create an innovative solution that assists patients, particularly the elderly and those with motor impairments, in managing their medication schedules. By automating the dispensing of pills in real-time and providing timely notifications, this project seeks to improve medication adherence and overall health outcomes. Our goal is to design a user-friendly device that significantly reduces the risks associated with missed doses and enhances the quality of life for its users.<br><br>
 ## Table of Contents : 
 1. [Introduction](#Introduction)
-2. [Project Objectives](#Project-Objectives)
+2. [About the Projet](#About-the-Project)
+   - [Project Overview](#Project-Overview)
+   - [Project Objectives](#Project-Objectives)
 3. [Circuit](#Circuit)
    - [Circuit Components](#Circuit-Components)
    - [Circuit Wiring](#Circuit-Wiring)
@@ -16,7 +18,8 @@ This documentation outlines the Pill Dispenser project developed for the Robotic
 4. [3D](#3D)   
 5. [References](#References)
    
-## Project Objectives
+## About the Project
+### Project Objectives
 - Assist with medication timing.
 - Support independent living among disabled patients.
 - Reduce medication errors.
