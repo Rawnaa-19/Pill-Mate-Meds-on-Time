@@ -58,6 +58,4 @@ This section details the circuit components and wiring used to make the project.
    
 ### Circuit Wiring
 
-<kbd> **Figure 3** <br><br>*Circuit Wiring*<br><br> <kbd>![image](https://github.com/Rawnaa-19/IOT-Esp32/assets/106926557/38d45730-16c8-4d5a-bee5-ac7ada8e9680)</kbd></kbd><br><br>
-<kbd> **Figure 4** <br><br>*Circuit Wiring*<br><br> <kbd>![IMG-7737](https://github.com/Rawnaa-19/IOT-Esp32/assets/106926557/ebf4ec77-d6a7-4bd3-9ef5-ac9bc59aff77)
-</kbd></kbd>
+
