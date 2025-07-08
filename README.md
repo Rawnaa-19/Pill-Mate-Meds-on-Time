@@ -45,11 +45,14 @@ This section details the circuit components and wiring used to make the project.
 </kbd></kbd><br><br>
 
 5. Stepper motor driver
-6. IR sensor.
-7. DFPlayer.
-8. Speaker.
-9. LCD Display.
-10. I2C for lcd.
+   <kbd> **Figure 3** <br><br>*Stepper Motor*<br><br> <kbd>![ULN2003-Stepper-Motor-Driver-Pinout_535x-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/4f1c96af-832f-496f-8079-515d9ce6ea33)
+
+</kbd></kbd><br><br>
+7. IR sensor.
+8. DFPlayer.
+9. Speaker.
+10. LCD Display.
+11. I2C for lcd.
    
 ### Circuit Wiring
 All LEDs cathode legs are connected to the GND pin of the esp32.The anode leg of the green LED (stop button) is connected to pin 26 of esp32. The anode legs of the red LEDs (right , left , forward , backward) are connected to pins (27 , 25 , 12 , 14) respectively.<br><br>
