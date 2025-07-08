@@ -11,6 +11,7 @@ This documentation outlines the Pill Dispenser project developed for the Robotic
 2. [About the Projet](#About-the-Project)
    - [Project Overview](#Project-Overview)
    - [Project Objectives](#Project-Objectives)
+   - - [Project Objectives](#Team-Members)
 3. [Circuit](#Circuit)
    - [Circuit Components](#Circuit-Components)
    - [Circuit Wiring](#Circuit-Wiring)
@@ -24,6 +25,13 @@ This documentation outlines the Pill Dispenser project developed for the Robotic
 - Support independent living among disabled patients.
 - Reduce medication errors.
 - Promote home-based healthcare.
+### Team Members
+1. Reema
+2. Rawnaa
+3. Ruba
+4. Rowina
+5. Sara
+6. Ymam
 # Circuit
 This section details the circuit components and wiring used to make the project.
 ### Circuit Components
