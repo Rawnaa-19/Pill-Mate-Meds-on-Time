@@ -37,6 +37,8 @@ This section details the circuit components and wiring used to make the project.
 ### Circuit Components
 1. Esp32 wroom.
    It is the brain of the project, used for its many pins and wifi feature needed to connect to the ntp server to get real time.
+   <kbd> **Figure 3** <br><br>*Circuit Wiring*<br><br> <kbd>![esp32-ezgif com-jpg-to-png-converter](https://github.com/user-attachments/assets/452b2faa-62f7-4639-b80b-3a700c9cda8d)</kbd></kbd><br><br>
+
 3. Stepper motor.
 4. IR sensor.
 5. DFPlayer.
