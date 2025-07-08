@@ -55,7 +55,10 @@ This section details the circuit components and wiring used to make the project.
 7. Speaker.
 8. LCD Display.
 9. I2C for lcd.
+
    
 ### Circuit Wiring
 
+<br><br>
+   <kbd> **Figure 3** <br><br>*Stepper Motor*<br><br> <kbd>![Pill-Dispenser-Team4](https://github.com/user-attachments/assets/d4ba096f-9fff-4b4d-855d-fd89e3034db1)
 
