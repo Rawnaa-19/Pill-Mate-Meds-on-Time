@@ -40,11 +40,14 @@ This section details the circuit components and wiring used to make the project.
    <kbd> **Figure 3** <br><br>*Circuit Wiring*<br><br> <kbd>![esp32-ezgif com-jpg-to-png-converter](https://github.com/user-attachments/assets/452b2faa-62f7-4639-b80b-3a700c9cda8d)</kbd></kbd><br><br>
 
 3. Stepper motor.
-4. IR sensor.
-5. DFPlayer.
-6. Speaker.
-7. LCD Display.
-8. I2C for lcd.
+   <kbd> **Figure 3** <br><br>*Circuit Wiring*<br><br> <kbd>![stepM-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/cdeb9826-5091-4be8-9f90-91447418cdf7)
+</kbd></kbd><br><br>
+
+5. IR sensor.
+6. DFPlayer.
+7. Speaker.
+8. LCD Display.
+9. I2C for lcd.
    
 ### Circuit Wiring
 All LEDs cathode legs are connected to the GND pin of the esp32.The anode leg of the green LED (stop button) is connected to pin 26 of esp32. The anode legs of the red LEDs (right , left , forward , backward) are connected to pins (27 , 25 , 12 , 14) respectively.<br><br>
