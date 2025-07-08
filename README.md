@@ -51,6 +51,9 @@ This section details the circuit components and wiring used to make the project.
 
 </kbd></kbd><br><br>
 5. IR sensor.
+<br><br>
+
+ <kbd> **Figure 3** <br><br>*Stepper Motor*<br><br> <kbd>![ir-sensor-500x500-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/c5300f87-5b94-4d20-93fc-1bc91f03d53d)
 6. DFPlayer.
 7. Speaker.
 8. LCD Display.
