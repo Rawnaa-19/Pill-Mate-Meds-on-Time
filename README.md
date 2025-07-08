@@ -63,7 +63,7 @@ This section details the circuit components and wiring used to make the project.
 ### Circuit Wiring
 
 <br><br>
-   <kbd> **Figure 3** <br><br>*Stepper Motor*<br><br> <kbd>![Pill-Dispenser-Team4](https://github.com/user-attachments/assets/d4ba096f-9fff-4b4d-855d-fd89e3034db1)</kbd>
-    <kbd> **Figure 3** <br><br>*Stepper Motor*<br><br> <kbd> ![IMG_5710](https://github.com/user-attachments/assets/779206d7-b00e-44d3-b5ba-84a7c2699a39)
+   <kbd> **Figure 3** <br><br>*circuit in fitzing*<br><br> <kbd>![Pill-Dispenser-Team4](https://github.com/user-attachments/assets/d4ba096f-9fff-4b4d-855d-fd89e3034db1)</kbd>
+    <kbd> **Figure 3** <br><br>*circuit in real life*<br><br> <kbd> ![IMG_5710](https://github.com/user-attachments/assets/779206d7-b00e-44d3-b5ba-84a7c2699a39)
 </kbd>
 
