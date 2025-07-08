@@ -15,7 +15,7 @@ This documentation outlines the Pill Dispenser project developed for the Robotic
 3. [Circuit](#Circuit)
    - [Circuit Components](#Circuit-Components)
    - [Circuit Wiring](#Circuit-Wiring)
-   - [Code](#Arduino-Code)
+   - [Code](#Code)
 4. [3D](#3D)   
 5. [References](#References)
    
@@ -66,4 +66,6 @@ This section details the circuit components and wiring used to make the project.
    <kbd> **Figure 3** <br><br>*circuit in fitzing*<br><br> <kbd>![Pill-Dispenser-Team4](https://github.com/user-attachments/assets/d4ba096f-9fff-4b4d-855d-fd89e3034db1)</kbd>
     <kbd> **Figure 3** <br><br>*circuit in real life*<br><br> <kbd> ![IMG_5710](https://github.com/user-attachments/assets/779206d7-b00e-44d3-b5ba-84a7c2699a39)
 </kbd>
+### Code
 
+# 3D
