@@ -24,3 +24,20 @@ This documentation outlines the Pill Dispenser project developed for the Robotic
 - Support independent living among disabled patients.
 - Reduce medication errors.
 - Promote home-based healthcare.
+# Circuit
+This section details the circuit components and wiring used to make the project.
+### Circuit Components
+1. Esp32 wroom.
+   It is the brain of the project, used for its many pins and wifi feature needed to connect to the ntp server to get real time.
+3. Stepper motor.
+4. IR sensor.
+5. DFPlayer.
+6. Speaker.
+7. LCD Display.
+8. I2C for lcd.
+   
+### Circuit Wiring
+All LEDs cathode legs are connected to the GND pin of the esp32.The anode leg of the green LED (stop button) is connected to pin 26 of esp32. The anode legs of the red LEDs (right , left , forward , backward) are connected to pins (27 , 25 , 12 , 14) respectively.<br><br>
+<kbd> **Figure 3** <br><br>*Circuit Wiring*<br><br> <kbd>![image](https://github.com/Rawnaa-19/IOT-Esp32/assets/106926557/38d45730-16c8-4d5a-bee5-ac7ada8e9680)</kbd></kbd><br><br>
+<kbd> **Figure 4** <br><br>*Circuit Wiring*<br><br> <kbd>![IMG-7737](https://github.com/Rawnaa-19/IOT-Esp32/assets/106926557/ebf4ec77-d6a7-4bd3-9ef5-ac9bc59aff77)
+</kbd></kbd>
