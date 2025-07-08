@@ -72,6 +72,7 @@ This section details the circuit components and wiring used to make the project.
 <br><br>
    <kbd> **Figure 3** <br><br>*circuit in fitzing*<br><br> <kbd>![IMG_5716](https://github.com/user-attachments/assets/34b25a73-636c-476e-895d-f70a181a1c0f)
 </kbd>
+<br><br>
     <kbd> **Figure 3** <br><br>*circuit in real life*<br><br> <kbd>![IMG_5715](https://github.com/user-attachments/assets/486aca0a-629b-4deb-b421-6549b9ac5cb1)
 
 </kbd>
