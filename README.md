@@ -11,7 +11,7 @@ This documentation outlines the Pill Dispenser project developed for the Robotic
 2. [About the Projet](#About-the-Project)
    - [Project Overview](#Project-Overview)
    - [Project Objectives](#Project-Objectives)
-   - - [Project Objectives](#Team-Members)
+   - [Project Objectives](#Team-Members)
 3. [Circuit](#Circuit)
    - [Circuit Components](#Circuit-Components)
    - [Circuit Wiring](#Circuit-Wiring)
@@ -46,6 +46,7 @@ This section details the circuit components and wiring used to make the project.
 </kbd></kbd><br><br>
 
 5. Stepper motor driver
+   <br><br>
    <kbd> **Figure 3** <br><br>*Stepper Motor*<br><br> <kbd>![ULN2003-Stepper-Motor-Driver-Pinout_535x-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/4f1c96af-832f-496f-8079-515d9ce6ea33)
 
 </kbd></kbd><br><br>
