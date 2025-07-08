@@ -41,6 +41,7 @@ This section details the circuit components and wiring used to make the project.
    </kbd><br><br>
 
 3. Stepper motor.
+   <br><br>
    <kbd> **Figure 3** <br><br>*Stepper Motor*<br><br> <kbd>![stepM-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/cdeb9826-5091-4be8-9f90-91447418cdf7)
 </kbd></kbd><br><br>
 
