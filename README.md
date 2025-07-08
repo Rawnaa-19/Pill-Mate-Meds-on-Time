@@ -37,10 +37,11 @@ This section details the circuit components and wiring used to make the project.
 ### Circuit Components
 1. Esp32 wroom.
    It is the brain of the project, used for its many pins and wifi feature needed to connect to the ntp server to get real time.
-   <kbd> **Figure 3** <br><br>*Circuit Wiring*<br><br> <kbd>![esp32-ezgif com-jpg-to-png-converter](https://github.com/user-attachments/assets/452b2faa-62f7-4639-b80b-3a700c9cda8d)</kbd></kbd><br><br>
+   <kbd> **Figure 3** <br><br>*Esp32*<br><br><img src="https://github.com/user-attachments/assets/452b2faa-62f7-4639-b80b-3a700c9cda8d" width="200" height="300" alt="PILMATELOGO">
+   </kbd><br><br>
 
 3. Stepper motor.
-   <kbd> **Figure 3** <br><br>*Circuit Wiring*<br><br> <kbd>![stepM-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/cdeb9826-5091-4be8-9f90-91447418cdf7)
+   <kbd> **Figure 3** <br><br>*Stepper Motor*<br><br> <kbd>![stepM-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/cdeb9826-5091-4be8-9f90-91447418cdf7)
 </kbd></kbd><br><br>
 
 5. Stepper motor driver
