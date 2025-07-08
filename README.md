@@ -36,7 +36,7 @@ This documentation outlines the Pill Dispenser project developed for the Robotic
 This section details the circuit components and wiring used to make the project.
 ### Circuit Components
 1. Esp32 wroom.
-   It is the brain of the project, used for its many pins and wifi feature needed to connect to the ntp server to get real time.
+   It is the brain of the project, used for its many pins and wifi feature needed to connect to the ntp server to get real time.<br><br>
    <kbd> **Figure 3** <br><br>*Esp32*<br><br><img src="https://github.com/user-attachments/assets/452b2faa-62f7-4639-b80b-3a700c9cda8d" width="300" height="3000" alt="PILMATELOGO">
    </kbd><br><br>
 
