@@ -21,7 +21,7 @@ form.addEventListener("submit", function(event) {
 
     if(validFormData){
 
-    fetch("http://localhost:1000/dataProcessing",{
+    fetch("http://localhost:10000/dataProcessing",{
         //sending 3 objects
         method:"POST",
         headers: {

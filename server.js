@@ -3,7 +3,7 @@ const express =require("express");
 const cors = require("cors");
 const application = express();
 const mysql = require("mysql2");
-const port = 1000;
+const port = 10000;
 const{check, validationResult}= require("express-validator");
 let formValidation = validateMedicationFormData();
 
