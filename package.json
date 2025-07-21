@@ -1,0 +1,26 @@
+{
+  "name": "pill-mate-meds-on-time",
+  "version": "1.0.0",
+  "description": "<kbd> **Figure 1** <br><br>*Pill Mate Logo*<br><br> \r <img src=\"https://pfst.cf2.poecdn.net/base/image/72c08102fd5cc60eba87fc603061a443d76a22ec3b13ea76f6acbebeabbf6b35?w=1024&h=1536&pmaid=413996819\" width=\"200\" height=\"300\" alt=\"PILMATELOGO\">\r </kbd>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rawnaa-19/Pill-Mate-Meds-on-Time.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rawnaa-19/Pill-Mate-Meds-on-Time/issues"
+  },
+  "homepage": "https://github.com/Rawnaa-19/Pill-Mate-Meds-on-Time#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mysql2": "^3.14.2"
+  }
+}
