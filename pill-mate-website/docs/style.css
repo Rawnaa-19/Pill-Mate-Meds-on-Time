@@ -99,16 +99,6 @@ input[type="date"] {
     box-shadow: 10px 10px 20px 5px rgba(206, 130, 130, 0.2) !important;
 }
 
-@media (max-width: 480px) {
-    .form-group {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .form-group label, 
-    .form-group input {
-        width: 100%;
-    }
-}
 
 footer {
     
@@ -120,4 +110,102 @@ footer {
     margin: 30px auto;
     max-width: 75%;
     padding: 20px;
+}
+
+
+
+@media (max-width: 480px) {
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form-group label, 
+    .form-group input {
+        width: 100%;
+    }
+}
+/* 
+#daysGroup{
+    display: grid;
+    gap:15px;
+    grid-template-areas: "sun mon tue wed",
+                "thu fri sat";
+}
+#daysGroup label {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+.mon{
+    grid-area:"mon"; ;
+}
+.tue{
+    grid-area:"tue"; ;
+}
+.wed{
+    grid-area:"wed"; ;
+}
+.thu{
+    grid-area:"thu"; ;
+}            
+.fri{
+    grid-area:"fri"; ;
+}
+.sat{
+    grid-area:"sat"; ;
+}
+.sun{
+    grid-area:"sun"; ;
+}    */
+
+#frequencyInput{
+     border-radius: 8px;
+    border: 1px solid #141412;
+    width: 15%;
+    height: 20px;
+    font-size: 10px;
+
+}
+
+#daysGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+    margin-left: 0; /* Reset margin to stay aligned */
+}
+
+#daysGroup label {
+    min-width: 200px;
+}
+
+.days-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 100px; /* Add margin to the left for spacing */
+}
+
+select {
+    flex: 2;
+    padding: 12px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    border: 1px solid #7a7041;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white; /* Match input background */
+    cursor: pointer;
+}
+
+/* To match the hover effect of your buttons */
+select:hover {
+    border-color: #665c00;
+}
+
+/* Focus state to match your design system */
+select:focus {
+    outline: none;
+    border-color: #665c00;
+    box-shadow: 0 0 0 2px rgba(102, 92, 0, 0.2);
 }

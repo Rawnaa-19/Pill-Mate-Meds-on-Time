@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/media/websiteIcon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./media/websiteIcon.jpg" type="image/x-icon">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Elsie+Swash+Caps:wght@400;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Vidaloka&display=swap" rel="stylesheet">
+
     <title>PillMate</title>
 </head>
 <body>
@@ -35,15 +39,78 @@
             <input type="number" id="dosage" name="dosage" placeholder="Dosage (mg)" required>
         </div>
 
+<div class="form-group">
+    <label for="frequency">Frequency:</label>
+
+    <div class="frequency-row">
+        <label class="hourly">
+            <input type="checkbox" name="hourly" id="hourly" value="hourly"> Hourly
+        </label>
+
+        <label class="daily">
+            <input type="checkbox" name="daily" id="daily" value="daily"> Daily
+        </label>
+
+        <label class="weekly">
+            <input type="checkbox" name="weekly" id="weekly" value="weekly"> Weekly
+        </label>
+
+        <label class="monthly">
+            <input type="checkbox" name="monthly" id="monthly" value="monthly"> Monthly
+        </label>
+
+        <label class="custom">
+            <input type="checkbox" name="custom" id="custom" value="custom"> Custom Frequency
+            <input type="text" id="frequencyInput" name="frequencyInput" placeholder="e.g.,every 8 hours"  required>
+        </label>
+    </div>
+</div>
+
+        <div class="form-group" id="daysGroup"  style="display: none;" >
+                <label>Recurring Days:</label>
+                <div class="days-checkboxes">
+                    <label><input type="checkbox" name="days" value="Monday" class="mon"> Mon</label>
+                    <label><input type="checkbox" name="days" value="Tuesday" class="tue"> Tue</label>
+                    <label><input type="checkbox" name="days" value="Wednesday" class="wed"> Wed</label>
+                    <label><input type="checkbox" name="days" value="Thursday" class="thu"> Thu</label>
+                    <label><input type="checkbox" name="days" value="Friday" class="fri"> Fri</label>
+                    <label><input type="checkbox" name="days" value="Saturday" class="sat"> Sat</label>
+                    <label><input type="checkbox" name="days" value="Sunday" class="sun"> Sun</label>
+                </div>
+            </div>
+
         <div class="form-group">
-            <label for="time">Time:</label>
-            <input type="time" id="time" name="time" size="90" required>
+            <label for="medType">Medication Type:</label>
+            <select id="medType" name="medType" required>
+                <option value="tablet">Tablet</option>
+                <option value="capsule">Capsule</option>
+                <option value="syrup">Syrup</option>
+                <option value="sublingual">Sublingual</option>
+                <option value="ointment">Ointment</option>
+                <option value="other">Other</option>
+            </select>
         </div>
 
         <div class="form-group">
-            <label for="date">Date:</label>
-            <input type="date" id="date" name="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" size="90"  required>
         </div>
+
+        <div class="form-group">
+            <label for="date">Starting Date:</label>
+            <input type="date" id="startDate" name="startDate" required>
+        </div>
+
+        <div class="form-group">
+            <label for="date">Ending Date:</label>
+            <input type="date" id="endDate" name="endDate" required>
+        </div>
+
+        <div class="form-group">
+                <label> Enable Reminders
+                    <input type="checkbox" id="reminderToggle" name="reminderToggle"  > 
+                </label>
+            </div>
 
         <div class="button">
             <button type="submit" class="item" id="submit" >Add Medication</button>
@@ -57,7 +124,7 @@
    
 
     <footer>
-        <p>For any inquiries, please contact us at <a href="mailto:info "> pillmateOrg@gmail.com</a> or call us at <strong>056-666-666</strong></p>
+        <p>For any inquiries, please contact us at <a href="mailto:pillmateOrg@gmail.com">pillmateOrg@gmail.com</a> or call us at <strong>056-666-666</strong></p>
         <p> &copy; 2025 PillMate ~ Meds on Time !</p>
         <p>All rights reserved</p>
         <p>Stay healthy and take care!</p>

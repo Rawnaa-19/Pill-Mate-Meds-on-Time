@@ -17,7 +17,7 @@ form.addEventListener("submit", function(event) {
     const submit = document.getElementById("submit");
     const reset = document.getElementById("reset");
 
-    const validFormData = validateform(medicationName, dosage, time, date);
+    const validFormData = validateForm(medicationName, dosage, time, date);
 
     if(validFormData){
 
@@ -82,17 +82,29 @@ function validateForm(medicationName, dosage, time, date) {
     }
 
     // Time: must match HH:MM 24-hour format
-    if (!/^([01]\d|2[0-3]):([0-5]\d)$/.test(time)) {
-        alert(errorMessages[2]);
-        return false;
-    }
+    // if (!/^([01]\d|2[0-3]):([0-5]\d)$/.test(time)) {
+    //     alert(errorMessages[2]);
+    //     return false;
+    // }
 
     // Date: must be valid date in YYYY-MM-DD format
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || isNaN(new Date(date).getTime())) {
-        alert(errorMessages[3]);
-        return false;
-    }
+    // if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || isNaN(new Date(date).getTime())) {
+    //     alert(errorMessages[3]);
+    //     return false;
+    // }
 
     return true;
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    const weeklyCheckbox = document.getElementById('weekly');
+    const daysGroup = document.getElementById('daysGroup');
+
+    weeklyCheckbox.addEventListener('change', function() {
+        if (this.checked) {
+            daysGroup.style.display = 'flex'; // or 'block' if you prefer
+        } else {
+            daysGroup.style.display = 'none';
+        }
+    });
+});

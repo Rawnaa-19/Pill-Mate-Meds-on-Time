@@ -15,7 +15,7 @@ application.use(cors({
 }));
 
 //static routing
-application.use("/",express.static("./docs"));
+application.use("/", express.static("./pill-mate-website/docs"));
 
 //declaring used file
 //html routing
