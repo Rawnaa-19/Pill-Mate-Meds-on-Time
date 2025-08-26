@@ -23,7 +23,10 @@
     <p>Fill in the details below to add a new medication.</p>
 </div>
 
-   
+    <!-- <div class="search search-container" id="searchID">
+                <input type="text" id="searchInput" class="searchBox" placeholder="Search for your medication routine using your ID.." autocomplete="on" >
+                <button class="searchButton" type="submit" > Get Info🔍</button>
+            </div> -->
         
         
 
@@ -41,32 +44,10 @@
 
 <div class="form-group">
     <label for="frequency">Frequency:</label>
-
-    <div class="frequency-row">
-        <label class="hourly">
-            <input type="checkbox" name="hourly" id="hourly" value="hourly"> Hourly
-        </label>
-
-        <label class="daily">
-            <input type="checkbox" name="daily" id="daily" value="daily"> Daily
-        </label>
-
-        <label class="weekly">
-            <input type="checkbox" name="weekly" id="weekly" value="weekly"> Weekly
-        </label>
-
-        <label class="monthly">
-            <input type="checkbox" name="monthly" id="monthly" value="monthly"> Monthly
-        </label>
-
-        <label class="custom">
-            <input type="checkbox" name="custom" id="custom" value="custom"> Custom Frequency
-            <input type="text" id="frequencyInput" name="frequencyInput" placeholder="e.g.,every 8 hours"  required>
-        </label>
-    </div>
+            <input type="text" id="frequencyInput" name="frequencyInput" placeholder="e.g.,every 8 hours" class="form-group" >
 </div>
 
-        <div class="form-group" id="daysGroup"  style="display: none;" >
+        <!-- <div class="form-group" id="daysGroup"  style="display: none;" >
                 <label>Recurring Days:</label>
                 <div class="days-checkboxes">
                     <label><input type="checkbox" name="days" value="Monday" class="mon"> Mon</label>
@@ -77,7 +58,7 @@
                     <label><input type="checkbox" name="days" value="Saturday" class="sat"> Sat</label>
                     <label><input type="checkbox" name="days" value="Sunday" class="sun"> Sun</label>
                 </div>
-            </div>
+            </div> -->
 
         <div class="form-group">
             <label for="medType">Medication Type:</label>
@@ -86,8 +67,7 @@
                 <option value="capsule">Capsule</option>
                 <option value="syrup">Syrup</option>
                 <option value="sublingual">Sublingual</option>
-                <option value="ointment">Ointment</option>
-                <option value="other">Other</option>
+                <option value="ointment">Ointment</option> 
             </select>
         </div>
 
@@ -119,7 +99,10 @@
     </div>
 </form>
 
-<div id="confirmation-message" style="text-align:center; margin-top:20px;"></div>
+<div id="confirmation-message" style='background-color:#f4e8d0; color:#003049; padding: 20px; margin: 20px; border-radius:15px; font-family:serif;'></div>
+
+<div id="medicationFeedback" style="text-align:center; margin-top:20px;"></div>
+
 
    
 

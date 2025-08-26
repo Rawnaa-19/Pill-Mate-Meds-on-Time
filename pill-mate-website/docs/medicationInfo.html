@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Medication Info</title>
+</head>
+<body>
+    <h2>💊 Your Medication Details</h2>
+    <div id="medicationDetails"></div>
+
+    <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+
+    if (id) {
+        fetch(`http://localhost:10000/medications/${id}`)
+            .then(response => {
+                if (!response.ok) throw new Error("Medication not found.");
+                return response.json();
+            })
+            .then(data => {
+                document.getElementById("medicationDetails").innerHTML = `
+                    <p><strong>Name:</strong> ${data.medicationName}</p>
+                    <p><strong>Dosage:</strong> ${data.dosage} mg</p>
+                    <p><strong>Time:</strong> ${data.time}</p>
+                    <p><strong>Type:</strong> ${data.medType}</p>
+                    <p><strong>Frequency:</strong> ${data.frequencyInput}</p>
+                    <p><strong>Start Date:</strong> ${data.startDate}</p>
+                    <p><strong>End Date:</strong> ${data.endDate}</p>
+                    <p><strong>Reminders:</strong> ${data.reminderToggle ? "Enabled" : "Disabled"}</p>
+                `;
+            })
+            .catch(error => {
+                document.getElementById("medicationDetails").innerHTML = `<p style="color:red;">${error.message}</p>`;
+            });
+    } else {
+        document.getElementById("medicationDetails").innerHTML = "<p>No ID provided.</p>";
+    }
+    </script>
+</body>
+</html>

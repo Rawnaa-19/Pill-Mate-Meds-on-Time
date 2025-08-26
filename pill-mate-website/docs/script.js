@@ -13,11 +13,16 @@ form.addEventListener("submit", function(event) {
     const medicationName = document.getElementsByName("medicationName")[0].value.trim();
     const dosage = document.getElementsByName("dosage")[0].value.trim();
     const time = document.getElementsByName("time")[0];
-    const date = document.getElementsByName("date")[0];
     const submit = document.getElementById("submit");
     const reset = document.getElementById("reset");
+    const frequencyInput = document.getElementsByName("frequencyInput")[0].value.trim();
+const medType = document.getElementsByName("medType")[0].value;
+const startDate = document.getElementsByName("startDate")[0].value;
+const endDate = document.getElementsByName("endDate")[0].value;
+const reminderToggle = document.getElementsByName("reminderToggle")[0].checked;
 
-    const validFormData = validateForm(medicationName, dosage, time, date);
+
+    const validFormData = validateForm(medicationName, dosage, time);
 
     if(validFormData){
 
@@ -27,12 +32,16 @@ form.addEventListener("submit", function(event) {
         headers: {
             "Content-Type": "application/json",
         },
-        body:JSON.stringify({ //data enterned by user
-            medicationName:medicationName,
-            dosage:dosage,
-            time:time.value,
-            date:date.value
-        }),
+       body: JSON.stringify({
+        medicationName,
+        dosage,
+        time: time.value,
+        frequencyInput,
+        medType,
+        startDate,
+        endDate,
+        reminderToggle
+}),
     })
     .then(function(response){
         if(response.ok){
@@ -43,13 +52,18 @@ form.addEventListener("submit", function(event) {
         }
     })
     .then(function(data){
-        
-        if(data.status){
-            document.getElementById("confirmation-message").innerHTML = "<span style='background-color:#f4e8d0; color:#003049;    padding: 20px;margin: 20px;border-radius:15px; font-family:serif;'> Medication has been successfully addeed!! <br> Thank you for using PillMate! We appreciate your support and look forward to serving you better.</span>";
-        }else{
-            throw new Error(data.err);
-        }
-    })
+    if(data.status){
+        document.getElementById("confirmation-message").innerHTML = `
+            <span>
+                💊 Medication has been successfully added!<br>
+                Your reference ID is <strong>${data.id}</strong>.<br>
+                Thank you for using PillMate! We appreciate your support and look forward to serving you better.
+            </span>`;
+    } else {
+        throw new Error(data.err);
+    }
+})
+
     
     .catch(function(error){
         document.getElementById("confirmation-message").innerHTML = "<span style='color:red; background-color:#f4e8d0;    padding: 20px;margin: 20px;border-radius:15px; font-family:serif;'>Sorry! There seems to be an error.</span>";
@@ -61,7 +75,7 @@ else{
 }
 
 });
-function validateForm(medicationName, dosage, time, date) {
+function validateForm(medicationName, dosage, time){
     const errorMessages = [
         "The medication name must be at least 2 characters long and contain only letters.",
         "The dosage must be provided and must be a number.",
@@ -96,15 +110,26 @@ function validateForm(medicationName, dosage, time, date) {
     return true;
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const weeklyCheckbox = document.getElementById('weekly');
-    const daysGroup = document.getElementById('daysGroup');
+// document.addEventListener('DOMContentLoaded', function() {
+//     const weeklyCheckbox = document.getElementById('weekly');
+//     const daysGroup = document.getElementById('daysGroup');
 
-    weeklyCheckbox.addEventListener('change', function() {
-        if (this.checked) {
-            daysGroup.style.display = 'flex'; // or 'block' if you prefer
-        } else {
-            daysGroup.style.display = 'none';
-        }
-    });
-});
+//     weeklyCheckbox.addEventListener('change', function() {
+//         if (this.checked) {
+//             daysGroup.style.display = 'flex'; // or 'block' if you prefer
+//         } else {
+//             daysGroup.style.display = 'none';
+//         }
+//     });
+// });
+
+
+
+// document.getElementById("searchID").addEventListener("submit", function() {
+//     const id = document.getElementById("searchInput").value;
+//     if (id === "") {
+//         alert("Please enter a valid ID.");
+//         return;
+//     }
+//     window.location.href = `/details/${id}`;
+// });

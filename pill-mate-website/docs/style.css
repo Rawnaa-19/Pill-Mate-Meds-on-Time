@@ -158,14 +158,14 @@ footer {
     grid-area:"sun"; ;
 }    */
 
-#frequencyInput{
+/* #frequencyInput{
      border-radius: 8px;
     border: 1px solid #141412;
     width: 15%;
     height: 20px;
     font-size: 10px;
 
-}
+} */
 
 #daysGroup {
     display: flex;
@@ -208,4 +208,40 @@ select:focus {
     outline: none;
     border-color: #665c00;
     box-shadow: 0 0 0 2px rgba(102, 92, 0, 0.2);
+}
+
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px auto;
+    height: 10%;
+    width: 50%;
+    border-radius: 25px;
+}
+.searchBox{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 12px ;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:"Playfair Display", serif;
+    margin: 0px;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.2) !important;
+}
+.searchButton{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    font-size: 25px;
+}
+.searchButton:hover{
+    background-color: #504E76;
 }
